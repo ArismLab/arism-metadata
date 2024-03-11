@@ -1,4 +1,4 @@
-import { DeviceDto, KeyDto } from '@dtos'
+import { DeviceDto, KeyDto } from 'src/dtos'
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { HydratedDocument } from 'mongoose'
 

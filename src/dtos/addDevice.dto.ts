@@ -1,10 +1,10 @@
 import { IsNotEmpty } from 'class-validator'
-import { KeyDto } from '@dtos'
+import { DeviceDto } from 'src/dtos'
 
-export class AddKeyDto {
+export class AddDeviceDto {
     @IsNotEmpty()
     user: string
 
     @IsNotEmpty()
-    key: KeyDto
+    device: DeviceDto
 }

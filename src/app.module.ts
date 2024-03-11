@@ -2,11 +2,11 @@ import { Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { ConfigModule, ConfigService } from '@nestjs/config'
 import { HttpModule } from '@nestjs/axios'
-import configuration from '@config'
-import * as controllers from '@controllers'
-import * as services from '@services'
-import { Metadata, MetadataSchema } from '@schemas'
-import { GoogleVerifier } from '@verifiers/google.verifier'
+import configuration from 'src/config'
+import * as controllers from 'src/controllers'
+import * as services from 'src/services'
+import { Metadata, MetadataSchema } from 'src/schemas'
+import { GoogleVerifier } from 'src/verifiers/google.verifier'
 
 @Module({
     imports: [

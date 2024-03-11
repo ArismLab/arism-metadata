@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { Model } from 'mongoose'
-import { Metadata, MetadataDocument } from '@schemas'
-import { DeviceDto, KeyDto } from '@dtos'
+import { Metadata, MetadataDocument } from 'src/schemas'
+import { DeviceDto, KeyDto } from 'src/dtos'
 
 @Injectable()
 export class MetadataService {

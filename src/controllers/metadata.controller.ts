@@ -1,14 +1,14 @@
 import { Body, Controller, Get, Param, Post, UseGuards } from '@nestjs/common'
-import { MetadataService } from '@services'
+import { MetadataService } from 'src/services'
 import {
     AddDeviceDto,
     SetRecoveryKeyDto,
     DeviceDto,
     AddKeyDto,
     KeyDto,
-} from '@dtos'
-import { VerifyGuard } from '@verifiers/verify.guard'
-import { Metadata } from '@schemas'
+} from 'src/dtos'
+import { VerifyGuard } from 'src/verifiers/verify.guard'
+import { Metadata } from 'src/schemas'
 
 @Controller()
 export class MetadataController {

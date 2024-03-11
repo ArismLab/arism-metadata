@@ -1,4 +1,4 @@
-import { get } from '@helpers/httpRequest'
+import { get } from 'src/helpers/httpRequest'
 import { HttpService } from '@nestjs/axios'
 import { Injectable } from '@nestjs/common'
 
